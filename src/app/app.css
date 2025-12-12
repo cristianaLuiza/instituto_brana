@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+app-home {
+  width: 250px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+   background: #cffcd3;
+  overflow-y: auto;
+ padding-left:20px
+}
